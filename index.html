@@ -10,6 +10,52 @@
     <link rel="stylesheet" href="/css/modules.css">
   </head>
   <body>
-
+    <header>
+      <h1>Want to go to Mars?</h1>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    </header>
+    <form class="" method="POST" action="http://formspree.io/hoanganhduong67o1@gmail.com">
+      <div class="details">
+        <h2>Personal details</h2>
+        <div class="">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" required>
+        </div>
+        <div class="">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="me@me.com" name="email" required>
+        </div>
+        <div class="">
+          <label for="subject">Physical fitness</label>
+          <select id="subject" name="_subject">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option> A little couch-potato-y</option>
+          </select>
+        </div>
+        <div class="">
+          <label for="address">What's up?</label>
+            <textarea id="address" name="message" required></textarea>
+        </div>
+      </div>
+      <div class="statement">
+        <h2>Mission statement</h2>
+        <div class="">
+          <label for="why">Why do you want to go to Mars?</label>
+            <textarea id="why" name="message" required></textarea>
+        </div>
+        <div class="">
+          <button type="submit">Register for the trip!</button>
+        </div>
+        <div class="">
+          <input type="hidden" name=_subject"" value="Request to join the mission">
+        </div>
+      </div>
+    </form>
   </body>
 </html>
