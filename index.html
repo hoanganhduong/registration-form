@@ -10,48 +10,67 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
-  <body class="island">
+  <body class="gutter">
+    <div class="">
+
+    </div>
     <header>
-      <h2 class="tera">Want to go to Mars?</h2>
-      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <h2 class="peta">Want to go to Mars?</h2>
+      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
     </header>
-    <form class="push-0" method="POST" action="http://formspree.io/hoanganhduong67o1@gmail.com">
-      <div class="details">
-        <h3 class="mega italic">Personal details</h3>
-        <div class="push">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
+    <form class="push 0" method="POST" action="http://formspree.io/hoanganhduong67o1@gmail.com">
+      <div class="push details">
+        <div class="holder">
+          <h3 class="mega italic personal">Personal details</h3>
+          <div class="bar">
+          </div>
         </div>
-        <div class="push">
-          <label for="age">Age</label>
-          <input type="number" id="age" name="age" required>
-        </div>
-        <div class="push">
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="me@me.com" name="email" required>
-        </div>
-        <div class="push">
-          <label for="subject">Physical fitness</label>
-          <select id="subject" name="_subject">
-            <option>Super-human</option>
-            <option>Fit as a fiddle</option>
-            <option>Not terribly strong</option>
-            <option> A little couch-potato-y</option>
-          </select>
-        </div>
-        <div class="push">
-          <label for="address">Address</label>
-            <textarea id="address" name="message" required></textarea>
+        <div class="grid">
+          <div class="push-1-2 mega unit xs-1 s-1 m-1 l-1-2 p-r">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="push-1-2 mega unit xs-1 s-1 m-1 l-1-2 p-l">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required>
+          </div>
+          <div class="push-1-2 mega unit xs-1 s-1 m-1 l-1-2 p-r">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="push-1-2 mega unit xs-1 s-1 m-1 l-1-2 p-l">
+            <label for="subject">Physical fitness</label>
+            <select id="subject" name="_subject">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option> A little couch-potato-y</option>
+            </select>
+          </div>
+          <div class="push-1-2 mega unit xs-1 s-1 m-1 l-1">
+            <label for="address">Address</label>
+              <textarea id="address" name="message" required></textarea>
+          </div>
         </div>
       </div>
       <div class="statement">
-        <h3 class="mega italic">Mission statement</h3>
-        <div class="push">
+        <!-- <h3 class="mega italic">Mission statement</h3> -->
+
+        <div class="holder">
+          <h3 class="mega italic personal">Mission statement</h3>
+          <div class="bar">
+          </div>
+        </div>
+
+        <div class="push mega">
           <label for="why">Why do you want to go to Mars?</label>
             <textarea id="why" name="message" required></textarea>
         </div>
         <div class="center-block">
-          <button type="submit">Register for the trip!</button>
+          <p class="a">
+            <button type="submit">Register for the trip!</button>
+          </p>
+
         </div>
         <div class="">
           <input type="hidden" name=_subject"" value="Request to join the mission">
