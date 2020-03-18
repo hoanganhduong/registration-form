@@ -1,5 +1,5 @@
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #f2f2f2;
 }
 
@@ -7,10 +7,9 @@ body {
   background-color: #fff;
   padding-top: 2.5rem;
   max-width: 36em;
-  margin: 0 auto;
 }
 
-h2 {
+h1 {
   border-bottom: solid 1px #000;
 }
 
@@ -25,7 +24,7 @@ div {
 .holder {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .bar {
@@ -38,7 +37,15 @@ div {
   text-align: center;
 }
 
+.btn {
+  width: 12em;
+}
+
 @media only screen and (min-width: 60em) {
+
+  header {
+    padding-top: 1rem;
+  }
 
   .p-l {
     padding-left: .5rem;
@@ -48,6 +55,8 @@ div {
     padding-right: .5rem;
   }
 
-
+  .bar {
+    width: 70%;
+  }
 
 }

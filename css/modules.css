@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 
 article,
@@ -1025,8 +1025,8 @@ select {
 button,
 .btn {
   cursor: pointer;
-  display: inline-block;
-  margin: 0;
+  display: block;
+  margin: 0 auto;
   overflow: visible;
   padding: .375em .75em .42em;
   -webkit-appearance: none;
